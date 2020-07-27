@@ -1,0 +1,218 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Ubuntu", sans-serif;
+}
+body {
+  background-image: linear-gradient(
+    110deg,
+    rgb(249, 189, 46),
+    rgb(248, 131, 121)
+  );
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+  /* position: relative; */
+}
+
+#logo {
+  background-color: rgb(226, 79, 66);
+  padding: 3px;
+  color: white;
+}
+#nav-bar {
+  background-color: transparent;
+  opacity: 95%;
+}
+ul {
+  display: flex;
+  color: white;
+  text-align: center;
+  margin-left: 70%;
+  /* margin: 1px 0px 0px 880px ; */
+}
+li {
+  margin: 0px 10px 0px 10px;
+  font-size: 19px;
+  list-style-type: none;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+}
+.port-container {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.cad {
+  width: 70%;
+  margin-bottom: 20px;
+  background-color: rgb(253, 253, 253);
+  padding: 20px;
+  border-radius: 9px;
+}
+.m {
+  width: 100%;
+}
+
+a::after:hover {
+  text-decoration: none;
+}
+.cad p:hover {
+  text-decoration: none;
+}
+.rows a:hover {
+  text-decoration: none;
+}
+.rows a div {
+  background-color: rgb(43, 55, 75);
+}
+.rows a div:hover {
+  background-color: rgb(27, 36, 53);
+}
+
+.rows a div p {
+  color: white;
+}
+.name {
+  font-size: 90px;
+  text-align: right;
+  margin-right: 80px;
+  padding: 50px 50px;
+  font-weight: bold;
+}
+.name span {
+  color: rgb(245, 245, 245);
+  background-color: rgb(226, 79, 66);
+}
+::selection {
+  background-color: rgb(248, 131, 121);
+  color: white;
+}
+
+.cont {
+  background-color: rgb(226, 79, 66);
+  height: 80px;
+  /* margin-top: 20px; */
+}
+.cont span {
+  margin-top: 140px;
+  font-size: 30px;
+}
+.cont span a img {
+  height: 30px;
+}
+.intro {
+  height: 50%;
+}
+#dp {
+  border-radius: 50%;
+  height: 300px;
+  /* margin-top: -30%; */
+}
+.bt {
+  border-radius: 40px;
+  border: none;
+  height: 50px;
+  width: 120px;
+  background-color: rgb(214, 81, 69);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+.bt-cont{
+  display: block;
+  /* border: 2px solid black; */
+  width: 300px;
+  margin: -11.5% 68% 200px auto;
+}
+.bt:hover{
+  background-color: rgb(167, 47, 36);
+  transition: ease-in-out 0.5s;
+  box-shadow: 0px 5px 10px rgb(167, 47, 36);
+
+}
+@media (max-width: 360px) {
+  .port-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+  }
+  .name {
+    font-size: 40px;
+  }
+
+  ul {
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-left: 70%;
+    /* margin: 1px 0px 0px 880px ; */
+  }
+  li {
+    margin: 0px 10px 0px 10px;
+    font-size: 19px;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+  }
+  
+}
+@media (max-width: 1100px) {
+  body{
+    overflow: scroll;
+  }
+  .bt-cont{
+    margin: 10% auto;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .port-container {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .rows {
+    flex-direction: column;
+  }
+  .name {
+    font-size: 50px;
+    line-height: 70px;
+    margin-top: 12%;
+    margin-right: 20px;
+  }
+  body{
+    background-image: linear-gradient(
+      94deg,
+      rgb(249, 189, 46),
+      rgb(248, 131, 121)
+      );
+      overflow: hidden;
+    }
+  .bt-cont{
+    display: block;
+    /* border: 2px solid black; */
+    width: 300px;
+    margin: 12% 0% 0 23% ;
+  }
+  ul {
+    display: flex;
+    color: white;
+    text-align: center;
+    margin-left: 70%;
+    /* margin: 1px 0px 0px 880px ; */
+  }
+  li {
+    margin: 0px 10px 0px 10px;
+    font-size: 19px;
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+  }
+  
+}
