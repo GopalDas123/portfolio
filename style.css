@@ -11,7 +11,7 @@ body {
   );
   background-position: center;
   background-size: cover;
-  overflow: hidden;
+  overflow: scroll;
   /* position: relative; */
 }
 
@@ -126,6 +126,18 @@ a::after:hover {
   background-color: rgb(167, 47, 36);
   transition: ease-in-out 0.5s;
   box-shadow: 0px 5px 10px rgb(167, 47, 36);
+
+}
+#lst{
+  height:272px ;
+  width: 316px;
+  float: left;
+  /* margin-top: -22%; */
+  margin-left: 5.04%;
+}
+#lst-img{
+  /* height: 70%;
+  width: 100%; */
 
 }
 @media (max-width: 360px) {
